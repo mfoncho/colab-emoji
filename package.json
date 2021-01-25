@@ -1,0 +1,31 @@
+{
+    "name": "@colab/emoji",
+    "version": "1.0.0",
+    "description": "colab emoji",
+    "main": "lib/index.js",
+    "scripts": {
+        "build": "tsc",
+        "test": "yarn test",
+        "postinstall": "tsc"
+    },
+    "prettier": {
+        "tabWidth": 4,
+        "jsxBracketSameLine": true
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mfoncho/colab-emoji.git"
+    },
+    "author": "colab team",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/mfoncho/colab-emoji/issues"
+    },
+    "homepage": "https://github.com/mfoncho/colab-emoji#readme",
+    "dependencies": {
+        "@types/emoji-js": "^3.4.0",
+        "@types/emoji-mart": "^3.0.4",
+        "emoji-js": "^3.5.0",
+        "emoji-mart": "^3.0.0"
+    }
+}
